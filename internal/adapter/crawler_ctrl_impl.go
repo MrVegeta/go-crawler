@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"../usecase"
+	"github.com/MrVegeta/go-crawler/internal/usecase"
 )
 
 //go:generate mockgen -source=./crawler_ctrl_impl.go -destination=../mock/mock_crawler_ctrl_impl.go -package=mock

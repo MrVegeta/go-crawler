@@ -1,8 +1,8 @@
 package crawler
 
 import (
-	"./internal/usecase"
-	"./internal/adapter"
+	"github.com/MrVegeta/go-crawler/internal/adapter"
+	"github.com/MrVegeta/go-crawler/internal/usecase"
 )
 
 type Crawler interface {

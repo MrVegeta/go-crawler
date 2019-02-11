@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"../mock"
+	"github.com/MrVegeta/go-crawler/internal/mock"
 )
 
 var (
